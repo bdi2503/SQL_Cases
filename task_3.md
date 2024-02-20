@@ -36,5 +36,7 @@ ORDER BY count_pair desc, pair
 ```
 ### Результат:
 ![image](https://github.com/bdi2503/SQL_works_online_grocery_store/assets/142053096/109aee11-58fa-4aaa-a052-79b9023f66ab)
+![image](https://github.com/bdi2503/SQL_works_online_grocery_store/assets/142053096/7b1d611e-ebac-4ac3-8601-a7a4ba1e6da9)
+
 
 
