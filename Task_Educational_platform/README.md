@@ -7,4 +7,8 @@ Based on the data from the educational platform, I calculated the main metrics i
 - CR from the active user's to the purchase; 
 - The user's CR from math activity to the purchase of a math course.
 
+The solution is in the **educational_platform_burykin_dmitriy.ipynb** file.
+
+The data is in the **data** folder.
+
 **Tool:** SQL (Clickhouse), Python (Pandahouse)
