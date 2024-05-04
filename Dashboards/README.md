@@ -4,7 +4,7 @@
 
 - **[Analysis_of_advertising_campaigns](https://github.com/bdi2503/SQL_works_online_grocery_store/blob/main/Dashboards/Analysis_of_advertising_campaigns.md/ "Ссылка на проект")** - Анализ эффективности двух рекламных компаний;
 - **[Application_activity_Analysis](https://github.com/bdi2503/SQL_works_online_grocery_store/blob/main/Dashboards/Application_activity_Analysis.md/ "Ссылка на проект")** - Анализ активности пользователей и курьеров в приложении; 
-- **[Product_economics_Analysis](https://github.com/bdi2503/SQL_works_online_grocery_store/blob/main/Dashboards/Product_economics_Analysis.md/ "Ссылка на проект")** -  Анализ экономической эфективности продукта.
+- **[Product_economics_Analysis](https://github.com/bdi2503/SQL_works_online_grocery_store/blob/main/Dashboards/Product_economics_Analysis.md/ "Ссылка на проект")** -  Анализ экономической эффективности продукта.
 
 
 На данные можно посмотреть здесь -> 
