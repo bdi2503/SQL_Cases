@@ -5,7 +5,10 @@
 
 **Ссылка на дашборд**: [Анализ рекламных компаний](https://redash.public.karpov.courses/dashboards/2973--/ "Ссылка для просмотра Дашборда")
 
-**mark_2.1**
+![image](https://github.com/bdi2503/SQL_works_online_grocery_store/assets/142053096/386ecaf3-a4a2-46cf-acd9-cc23ea82749b)
+![image](https://github.com/bdi2503/SQL_works_online_grocery_store/assets/142053096/c6191dba-2e63-4e4b-ae86-7bff27c89b83)
+
+**mark_2.1 - Затраты на привлечение одного покупателя.**
 
 ```
 SELECT
@@ -58,7 +61,7 @@ GROUP BY ads_campaign
 ORDER BY cac desc
 ```
 
-**mark_2.2**
+**mark_2.2 - Окупаемость инвестиций на рекламу.**
 ```
 with groups as (
     SELECT 
@@ -125,7 +128,7 @@ GROUP BY ads_campaign
 ORDER BY roi desc
 ```
 
-**mark_2.3**
+**mark_2.3 - Средний чек за первую неделю.**
 ```
 with groups as (
     SELECT 
@@ -201,7 +204,7 @@ GROUP BY ads_campaign
 ORDER BY avg_check desc
 ```
 
-**Retention 1-го и 7-го дня у привлечённых пользователей**
+**Retention 1-го и 7-го дня у привлечённых пользователей.**
 ```
 SELECT
     ads_campaign,
@@ -262,7 +265,7 @@ FROM (
 WHERE (date - start_date)in (0, 1, 7)
 ```
 
-**mark_2.6_c1**
+**mark_2.6_c1 - Динамика накопительной ARPPU 1-ой компании.**
 ```
 with main_table as (SELECT ads_campaign,
                            user_id,
@@ -355,7 +358,7 @@ FROM (
 WHERE ads_campaign = 'Кампания № 1'
 ```
 
-**mark_2.6_c2**
+**mark_2.6_c2 - Динамика накопительной ARPPU 2-ой компании.**
 ```
 with main_table as (SELECT ads_campaign,
                            user_id,
@@ -447,8 +450,6 @@ FROM (
                    ) as c1
 WHERE ads_campaign = 'Кампания № 2'
 ```
-
-
 
 **Дашборд**
 ![image](https://github.com/bdi2503/SQL_works_online_grocery_store/assets/142053096/386ecaf3-a4a2-46cf-acd9-cc23ea82749b)
