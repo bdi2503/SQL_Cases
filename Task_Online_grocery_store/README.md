@@ -40,3 +40,5 @@
 ![image](https://github.com/bdi2503/SQL_works_online_grocery_store/assets/142053096/43acc90c-2980-41d8-83b7-0cff22a772ef)
 ![image](https://github.com/bdi2503/SQL_works_online_grocery_store/assets/142053096/199c7540-6772-48ad-9175-f5dbb9dc8dad)
 
+Продолжение проекта **Task_Online_grocery_store** можно посмотреть в разделе
+[SQL_Cases/Dashboards](https://github.com/bdi2503/SQL_Cases/tree/main/Dashboards "Ссылка на проект").
